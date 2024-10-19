@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555974775794",
+    "project_id": "whatsapp-parth",
+    "storage_bucket": "whatsapp-parth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555974775794:android:ba3c75acf14fa380b3916b",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555974775794-fe5r5bmehr921t7entoip784gftcvj6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7H30KfNn_Jv_T1igVPWqPLhh_Dqs7jLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555974775794-fe5r5bmehr921t7entoip784gftcvj6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

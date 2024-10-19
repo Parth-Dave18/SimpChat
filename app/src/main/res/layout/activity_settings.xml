@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingsProfileImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/avatar3"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/settingsProfileEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsProfileImage"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/edit_profile"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_margin="10dp"
+
+        />
+    <EditText
+        android:id="@+id/settingsProfileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsProfileEditName"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/edit_status"
+        android:hint="Hey ! I am online"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:id="@+id/settingsProfileUpdateButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsProfileStatus"
+        android:text="Update"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
